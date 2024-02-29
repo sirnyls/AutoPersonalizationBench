@@ -1,0 +1,9 @@
+Metric,SAE,ESL,AAE
+flesch_reading_ease,32.951544,31.959344,34.407896
+smog_index,15.999228,16.039189,15.583398
+flesch_kincaid_grade,14.150965,14.300772,13.777606
+unique_words,209.040541,234.830116,214.084942
+lexical_diversity,0.492450,0.527654,0.520188
+sentence_length_variability,7.941602,8.166591,7.822263
+grammar_errors,1.739382,1.868726,1.868726
+complex_structures,50.187259,54.511583,48.523166
