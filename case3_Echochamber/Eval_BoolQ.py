@@ -218,11 +218,11 @@ if model_name == 'gpt-3.5-turbo-1106' or model_name in ['gpt-4', 'gpt-4-0613']:
 if not is_gpt:
     # update the path later according to the supported models
     if model_name == 'llama2-7b-chat':
-        tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-7b-chat-hf", padding_side='left', use_fast=True, token = "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")
+        tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-7b-chat-hf", padding_side='left', use_fast=True)
         model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-2-7b-chat-hf", device_map="auto", trust_remote_code=False, revision="main", 
                                              token = os.environ.get("Llama_token"))
     elif model_name == 'llama2-13b-chat':
-        tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-13b-chat-hf", padding_side='left', use_fast=True, token = "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")
+        tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-13b-chat-hf", padding_side='left', use_fast=True)
         model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-2-13b-chat-hf", device_map="auto", trust_remote_code=False, revision="main", 
                                              token = os.environ.get("Llama_token"))
     elif model_name == 'llama2-70b-chat':
