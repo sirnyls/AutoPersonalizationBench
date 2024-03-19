@@ -1,0 +1,22 @@
+Results for SAE-AAE:
+Alpaca: significant
+GPT-4: significant
+Gemini: significant
+Llama13B: significant
+Llama70B: significant
+Llama70b: not significant
+Llama7B: significant
+Vicuna13B: significant
+Vicuna7B: significant
+
+Results for SAE-ESL:
+Alpaca: significant
+GPT-4: significant
+Gemini: significant
+Llama13B: significant
+Llama70B: significant
+Llama70b: not significant
+Llama7B: significant
+Vicuna13B: significant
+Vicuna7B: significant
+
